@@ -1,0 +1,20 @@
+nav{
+    background: midnightblue;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 2rem;
+}
+nav ul{
+    display: block;
+    margin-bottom: 0;
+}
+nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    opacity: .8;
+    color: white;
+}

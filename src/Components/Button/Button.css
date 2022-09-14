@@ -1,0 +1,17 @@
+.button-filter{
+    background:white;
+    padding:10px 15px;
+    margin:0 5px;
+    transition: all .2s ease-in-out;
+
+}
+.button-filter:hover{
+
+    background: #c7c7ff;
+    opacity: .8;
+
+}
+.button-filter.active{
+    background:midnightblue;
+    color: white;
+}

@@ -1,0 +1,9 @@
+.link-card{
+    text-decoration: none;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+.link-card:hover{
+    text-decoration: none;
+opacity: .8;
+}
