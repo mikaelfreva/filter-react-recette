@@ -1,10 +1,9 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { Link, useParams } from 'react-router-dom';
 import inventory from "../../Data";
 import './ShowRecipe.css'
 export default function ShowRecipe() {
-  const [nbMugs, setNbMugs] = useState(1);
 
   const { id } = useParams();
 

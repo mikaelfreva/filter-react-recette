@@ -17,7 +17,7 @@ const Button = ({ filterItem, setItem, menuItems,active,setActive }) => {
     <>
       <div className="d-flex justify-content-center">
       <button
-          className={`${active == 'All' && 'active'} button-filter`}
+          className={`${active === 'All' && 'active'} button-filter`}
 
           onClick={() => AllButton(Data)}
        
@@ -28,7 +28,7 @@ const Button = ({ filterItem, setItem, menuItems,active,setActive }) => {
           return (
             <button
              // className="btn-dark text-white p-1 px-2 mx-5 btn fw-bold"
-              className={`${active == Val && 'active'} button-filter `}
+              className={`${active === Val && 'active'} button-filter `}
               onClick={() => TypeButton(Val)}
        
               key={id}
